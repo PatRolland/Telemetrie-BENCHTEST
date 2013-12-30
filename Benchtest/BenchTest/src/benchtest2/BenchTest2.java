@@ -27,6 +27,9 @@ public class BenchTest2 extends Application {
         stage.setScene(scene);
         stage.show();
     }
+    
+    public static void createNothing()
+    {}
 
     /**
      * The main() method is ignored in correctly deployed JavaFX application.
@@ -38,6 +41,7 @@ public class BenchTest2 extends Application {
      */
     public static void main(String[] args) {
         launch(args);
+        createNothing();
     }
     
 }
